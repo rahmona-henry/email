@@ -1,0 +1,1047 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	<!-- NAME: 1 COLUMN -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("loa
+d",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>*|MC:SUBJECT|*</title>
+
+    <style type="text/css">
+		body,#bodyTable,#bodyCell{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		img,a img{
+			border:0;
+			outline:none;
+			text-decoration:none;
+		}
+		h1,h2,h3,h4,h5,h6{
+			margin:0;
+			padding:0;
+		}
+		p{
+			margin:1em 0;
+			padding:0;
+		}
+		a{
+			word-wrap:break-word;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+			line-height:100%;
+		}
+		table,td{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		body,table,td,p,a,li,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		#templatePreheader,#templateHeader,#templateBody,#templateFooter{
+			min-width:100%;
+		}
+		#bodyCell{
+			padding:20px;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+	/*
+	@tab Page
+	@section background style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#F2F2F2;
+		}
+	/*
+	@tab Page
+	@section background style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section email border
+	@tip Set the border for your email.
+	*/
+		#templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#606060 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:40px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:-1px;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#404040 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:-.75px;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#606060 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:-.5px;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#808080 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Preheader
+	@section preheader style
+	@tip Set the background color and borders for your email's preheader area.
+	*/
+		#templatePreheader{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Preheader
+	@section preheader text
+	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	*/
+		.preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Preheader
+	@section preheader link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.preheaderContainer .mcnTextContent a{
+			/*@editable*/color:#606060;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Header
+	@section header style
+	@tip Set the background color and borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section header text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:15px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section header link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.headerContainer .mcnTextContent a{
+			/*@editable*/color:#6DC6DD;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section body style
+	@tip Set the background color and borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section body text
+	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:15px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section body link
+	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+	*/
+		.bodyContainer .mcnTextContent a{
+			/*@editable*/color:#6DC6DD;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section footer style
+	@tip Set the background color and borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section footer text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section footer link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		.footerContainer .mcnTextContent a{
+			/*@editable*/color:#606060;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[id=bodyCell]{
+			padding:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnTextContentContainer]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			max-width:100% !important;
+			min-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcpreview-image-uploader]{
+			width:100% !important;
+			display:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		img[class=mcnImage]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnImageGroupContentContainer]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageGroupContent]{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageGroupBlockInner]{
+			padding-bottom:0 !important;
+			padding-top:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		tbody[class=mcnImageGroupBlockOuter]{
+			padding-bottom:9px !important;
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnCaptionTopContent],table[class=mcnCaptionBottomContent]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnCaptionLeftTextContentContainer],table[class=mcnCaptionRightTextContentContainer],table[class=mcnCaptionLeftImageContentContainer],table[class=mcnCaptionRightImageContentContainer],table[class=mcnImageCardLeftTextContentContainer],table[class=mcnImageCardRightTextContentContainer]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardLeftImageContent],td[class=mcnImageCardRightImageContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardBottomImageContent]{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardTopImageContent]{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardLeftImageContent],td[class=mcnImageCardRightImageContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardBottomImageContent]{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardTopImageContent]{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnCaptionLeftContentOuter] td[class=mcnTextContent],table[class=mcnCaptionRightContentOuter] td[class=mcnTextContent]{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnCaptionBlockInner] table[class=mcnCaptionTopContent]:last-child td[class=mcnTextContent]{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnBoxedTextContentColumn]{
+			padding-left:18px !important;
+			padding-right:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnTextContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section template width
+	@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+	*/
+		table[id=templateContainer],table[id=templatePreheader],table[id=templateHeader],table[id=templateBody],table[id=templateFooter]{
+			/*@tab Mobile Styles
+@section template width
+@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/max-width:600px !important;
+			/*@editable*/width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+			/*@editable*/font-size:24px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		table[class=mcnBoxedTextContentContainer] td[class=mcnTextContent],td[class=mcnBoxedTextContentContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Visibility
+	@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.
+	*/
+		table[id=templatePreheader]{
+			/*@editable*/display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Text
+	@tip Make the preheader text larger in size for better readability on small screens.
+	*/
+		td[class=preheaderContainer] td[class=mcnTextContent],td[class=preheaderContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:115% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		td[class=headerContainer] td[class=mcnTextContent],td[class=headerContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		td[class=bodyContainer] td[class=mcnTextContent],td[class=bodyContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section footer text
+	@tip Make the body content text larger in size for better readability on small screens.
+	*/
+		td[class=footerContainer] td[class=mcnTextContent],td[class=footerContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:115% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=footerContainer] a[class=utilityLink]{
+			display:block !important;
+		}
+
+}</style></head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templatePreheader">
+                                        <tr>
+                                        	<td valign="top" class="preheaderContainer" style="padding-top:9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+
+                            Reservation for Shotover Canyon Combo
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                        <tbody><tr>
+                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0;">
+
+
+                                        <img align="left" alt="" src="https://gallery.mailchimp.com/a0529bd1632a36cc5e50323eb/images/9ecb1e02-ffc7-4a4e-bd6a-03a257b1e63f.jpg" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                        <tr>
+                                            <td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+
+                            <span style="font-size:12px"><span style="color:#696969">Hi {<strong>Booking.BookingName</strong>}</span><br>
+Thanks for booking a Shotover Canyon Combo. &nbsp;Your Canyon Fox and/or Canyon Swing are already confirmed your other activities will be confirmed within 24 hours.<br>
+<br>
+Details of your booking are below.</span><br>
+<br>
+<img align="none" height="27" src="https://gallery.mailchimp.com/a0529bd1632a36cc5e50323eb/images/9f6553af-0997-48f2-b1d8-8feda3a060e8.png" style="width: 200px; height: 27px; margin: 0px;" width="200">
+<table style="border-spacing: 0px;border: 0px;border-collapse: collapse;color: #696969;font-family: Helvetica, sans-serif;font-size: 12px;line-height: normal;" width="339">
+	<tbody>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Name</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.BookingName}</td>
+		</tr>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Product</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.FullProductName}</td>
+		</tr>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Date</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.PickupDateTime;ddd d MMMM yyyy}</td>
+		</tr>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Time</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.PickupDateTime;t}</td>
+		</tr>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Pickup</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.PickupLocation}</td>
+		</tr>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Booking Ref</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.BookingID}</td>
+		</tr>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Status</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.Status}</td>
+		</tr>
+		<tr align="left">
+			<th style="padding: 6px 5px 5px;">Notes</th>
+			<td style="padding: 0px;border: 0px solid #FFFFFF;">{Booking.Note}</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="gmail_default" style="line-height: normal;">&nbsp;
+<table class="mc-table" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;">
+	<thead>
+		<tr class="odd">
+			<th><span style="font-size:12px"><span style="color:#696969">Option</span></span></th>
+			<th><span style="font-size:12px"><span style="color:#696969">Units</span></span></th>
+			<th><span style="font-size:12px"><span style="color:#696969">Value</span></span></th>
+			<th><span style="font-size:12px"><span style="color:#696969">Total</span></span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="odd">
+			<td><span style="font-size:12px"><span style="color:#696969">{Name}</span></span></td>
+			<td><span style="font-size:12px"><span style="color:#696969">{Units}</span></span></td>
+			<td><span style="font-size:12px"><span style="color:#696969">{UnitsCostIncTax;$0.00;($0.00)}</span></span></td>
+			<td><span style="font-size:12px"><span style="color:#696969">{LineValueIncTax;$0.00}</span></span></td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr class="odd">
+			<th><span style="font-size:12px"><span style="color:#696969">TOTAL</span></span></th>
+			<th>&nbsp;</th>
+			<th>&nbsp;</th>
+			<th><span style="font-size:12px"><span style="color:#696969">{Booking.ValueIncTax;$0.00}</span></span></th>
+		</tr>
+	</tbody>
+</table>
+<font color="#222222" face="tahoma, sans-serif"><span style="font-size:12.8px">&nbsp;</span></font>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><br>
+<br>
+<img align="none" height="28" src="https://gallery.mailchimp.com/a0529bd1632a36cc5e50323eb/images/43007ed2-76b5-4275-9430-6291a0d40e6f.png" style="width: 200px; height: 28px; margin: 0px;" width="200"><br>
+<span style="font-size:10px"><span style="color:#696969"><strong>Ticket collection</strong></span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">Check in at the Shotover Canyon Swing Shop, 34&nbsp;Shotover Street<a href="https://goo.gl/maps/T9pL7NjeL9T2" target="_blank"> </a><a href="https://goo.gl/maps/G9H24PFqRWQ2" target="_blank">(map)</a>, check in times will be stated on additional booking confirmation</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">Please bring your credit card for signature verification and to collect your tickets</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">Your check in times and pick up points will be given</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">All transport to and from the town centre is included.</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;">&nbsp;</div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969"><strong>Booking information</strong></span></span><br>
+<span style="font-size:10px"><span style="color:#696969">The Shotover Canyon Swing booking will be instantly confirmed<br>
+Your Shotover Jet, will be confirmed via email within 24 hours, please feel free to contact us if you have not heard from us within this timeframe<br>
+Child rates available for Jet Combos<br>
+<strong>24 hour cancellation policy applies.</strong>&nbsp;&nbsp;A full refund will be given with at least 24 hours notice prior to your first check in time. No refunds/changes/transfers with less than 24 hours notice<br>
+If you do not show up for any of your booked activities, no refunds will be issued<br>
+Should any portion of your combo be cancelled by the operator, only this portion of the combo will be refunded, and the full RRP will be charged<br>
+Not all activities are weather dependent, if in doubt please contact us for clarification.</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;">&nbsp;</div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969"><strong>What to bring (year round)</strong></span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">A jacket/warm outer layer and closed toe footwear&nbsp;<strong>MUST</strong> be worn</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">Appropriate clothing for the outdoors and all weather conditions.&nbsp;<br>
+In winter&nbsp;gloves and a hat are strongly recommended<br>
+Sunglasses are recommended for Jet<br>
+Spray jacket and life jacket will be be provided for Jet<br>
+Swimwear and towel for rafting</span></span><br>
+&nbsp;</div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969"><strong>Shotover Canyon Swing restrictions</strong></span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">Maximum weight for solo jumps is 135kg</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">Maximum combined weight for tandem jumps is 180kg</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color:#696969">Minimum age is 10 years and 35 kgs, for safety ID may required</span></span></div>
+
+<div class="gmail_default" style="line-height: normal;"><span style="color: #222222;font-family: tahoma,sans-serif;font-size: 10px;"><span style="color:#696969">Parental/guardian consent required for those under 16 years.</span></span><br>
+&nbsp;
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color: #696969;"><strong>Shotover Canyon Fox&nbsp;restrictions</strong></span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color: #696969;">Maximum weight 125kg<br>
+Minimum weight 40kg</span></span></div>
+
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color: #696969;">Minimum age is 10 years&nbsp;-&nbsp;for safety, ID may be required</span></span></div>
+
+<div class="gmail_default" style="line-height: normal;"><span style="color: #222222;font-family: tahoma,sans-serif;font-size: 10px;"><span style="color: #696969;">Parental/guardian consent required for those under 16 years<br>
+There are no tandem rides available.</span></span><br>
+&nbsp;
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color: #696969;"><strong>Shotover Jet restrictions</strong></span></span></div>
+
+<div class="gmail_default" style="line-height: normal;"><font color="#696969" face="tahoma, sans-serif"><span style="font-size:10px">A minimum child height of 1m applies and all children must be accompanied&nbsp;by a fare paying adult</span></font><br>
+<font color="#696969" face="tahoma, sans-serif"><span style="font-size:10px">Should river conditions on the day dictate, Shotover jet does reserve the right to extend the minimum child height to 1.2m to ensure maximum passenger safety</span></font><br>
+<font color="#696969" face="tahoma, sans-serif"><span style="font-size:10px">Please speak with one of the Shotover Jet team if your are pregnant or have any medical conditions including back or neck problems.</span></font><br>
+&nbsp;
+<div class="gmail_default" style="color: #222222;font-family: tahoma, sans-serif;font-size: 12.8px;line-height: normal;"><span style="font-size:10px"><span style="color: #696969;"><strong>Rafting restrictions</strong></span></span></div>
+
+<div class="gmail_default" style="line-height: normal;"><font color="#696969" face="tahoma, sans-serif"><span style="font-size:10px">Minimum age 13 years<br>
+Minimum weight 40kgs<br>
+Under 18's - guardian conditions apply<br>
+If pregnant you will not be able to raft either&nbsp;the Shotover or Kawarau Rivers<br>
+Rafters must be able to swim and be water confident.</span></font></div>
+</div>
+</div>
+</div>
+</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowBlock">
+    <tbody class="mcnFollowBlockOuter">
+        <tr>
+            <td align="center" valign="top" style="padding:9px" class="mcnFollowBlockInner">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentContainer">
+    <tbody><tr>
+        <td align="center" style="padding-left:9px;padding-right:9px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContent" style="border: 1px solid #EEEEEE;background-color: #FAFAFA;">
+                <tbody><tr>
+                    <td align="center" valign="top" style="padding-top:9px; padding-right:9px; padding-left:9px;">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td valign="top">
+
+
+			                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked">
+
+			                                    <tbody><tr>
+			                                        <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:5px;">
+			                                            <a href="http://www.facebook.com/ShotoverCanyonSwing" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-96.png" alt="Facebook" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+			                                        </td>
+			                                    </tr>
+
+
+			                                    <tr>
+			                                        <td align="center" valign="top" class="mcnFollowTextContent" style="padding-right:10px; padding-bottom:9px;">
+			                                            <a href="http://www.facebook.com/ShotoverCanyonSwing" target="_blank" style="color: #606060;font-family: Arial;font-size: 11px;font-weight: normal;line-height: 100%;text-align: center;text-decoration: none;">Facebook</a>
+			                                        </td>
+			                                    </tr>
+
+			                                </tbody></table>
+
+
+								<!--[if gte mso 6]>
+								</td>
+						    	<td align="left" valign="top">
+								<![endif]-->
+
+
+			                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked">
+
+			                                    <tbody><tr>
+			                                        <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:5px;">
+			                                            <a href="www.canyonswing.co.nz" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-link-96.png" alt="Website" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+			                                        </td>
+			                                    </tr>
+
+
+			                                    <tr>
+			                                        <td align="center" valign="top" class="mcnFollowTextContent" style="padding-right:10px; padding-bottom:9px;">
+			                                            <a href="www.canyonswing.co.nz" target="_blank" style="color: #606060;font-family: Arial;font-size: 11px;font-weight: normal;line-height: 100%;text-align: center;text-decoration: none;">Website</a>
+			                                        </td>
+			                                    </tr>
+
+			                                </tbody></table>
+
+
+								<!--[if gte mso 6]>
+								</td>
+						    	<td align="left" valign="top">
+								<![endif]-->
+
+
+			                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked">
+
+			                                    <tbody><tr>
+			                                        <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:5px;">
+			                                            <a href="mailto:info@canyonswing.co.nz" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-96.png" alt="Email" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+			                                        </td>
+			                                    </tr>
+
+
+			                                    <tr>
+			                                        <td align="center" valign="top" class="mcnFollowTextContent" style="padding-right:10px; padding-bottom:9px;">
+			                                            <a href="mailto:info@canyonswing.co.nz" target="_blank" style="color: #606060;font-family: Arial;font-size: 11px;font-weight: normal;line-height: 100%;text-align: center;text-decoration: none;">Email</a>
+			                                        </td>
+			                                    </tr>
+
+			                                </tbody></table>
+
+
+								<!--[if gte mso 6]>
+								</td>
+						    	<td align="left" valign="top">
+								<![endif]-->
+
+
+			                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked">
+
+			                                    <tbody><tr>
+			                                        <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:5px;">
+			                                            <a href="http://www.youtube.com/shotovercanyonswingQT" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-youtube-96.png" alt="YouTube" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+			                                        </td>
+			                                    </tr>
+
+
+			                                    <tr>
+			                                        <td align="center" valign="top" class="mcnFollowTextContent" style="padding-right:10px; padding-bottom:9px;">
+			                                            <a href="http://www.youtube.com/shotovercanyonswingQT" target="_blank" style="color: #606060;font-family: Arial;font-size: 11px;font-weight: normal;line-height: 100%;text-align: center;text-decoration: none;">YouTube</a>
+			                                        </td>
+			                                    </tr>
+
+			                                </tbody></table>
+
+
+								<!--[if gte mso 6]>
+								</td>
+						    	<td align="left" valign="top">
+								<![endif]-->
+
+
+			                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked">
+
+			                                    <tbody><tr>
+			                                        <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:10px; padding-bottom:5px;">
+			                                            <a href="https://plus.google.com/+ShotoverCanyonSwingQueenstown" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-googleplus-96.png" alt="Google Plus" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+			                                        </td>
+			                                    </tr>
+
+
+			                                    <tr>
+			                                        <td align="center" valign="top" class="mcnFollowTextContent" style="padding-right:10px; padding-bottom:9px;">
+			                                            <a href="https://plus.google.com/+ShotoverCanyonSwingQueenstown" target="_blank" style="color: #606060;font-family: Arial;font-size: 11px;font-weight: normal;line-height: 100%;text-align: center;text-decoration: none;">Google Plus</a>
+			                                        </td>
+			                                    </tr>
+
+			                                </tbody></table>
+
+
+								<!--[if gte mso 6]>
+								</td>
+						    	<td align="left" valign="top">
+								<![endif]-->
+
+
+			                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked">
+
+			                                    <tbody><tr>
+			                                        <td align="center" valign="top" class="mcnFollowIconContent" style="padding-right:0; padding-bottom:5px;">
+			                                            <a href="http://instagram.com/shotovercanyonswing" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-96.png" alt="Instagram" class="mcnFollowBlockIcon" width="48" style="width:48px; max-width:48px; display:block;"></a>
+			                                        </td>
+			                                    </tr>
+
+
+			                                    <tr>
+			                                        <td align="center" valign="top" class="mcnFollowTextContent" style="padding-right:0; padding-bottom:9px;">
+			                                            <a href="http://instagram.com/shotovercanyonswing" target="_blank" style="color: #606060;font-family: Arial;font-size: 11px;font-weight: normal;line-height: 100%;text-align: center;text-decoration: none;">Instagram</a>
+			                                        </td>
+			                                    </tr>
+
+			                                </tbody></table>
+
+
+								<!--[if gte mso 6]>
+								</td>
+						    	<td align="left" valign="top">
+								<![endif]-->
+
+								</td>
+							</tr>
+						</tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContainer" style="padding-bottom:9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+
+                            <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img align="center" height="96" src="https://gallery.mailchimp.com/a0529bd1632a36cc5e50323eb/images/f7886540-a568-4892-9842-8cddeff4053d.png" style="width: 300px; height: 96px; margin: 0px;" width="300"></div>
+
+<div style="text-align: center;"><br>
+<strong>Phone</strong>&nbsp; &nbsp;<a href="tel:006434426990" target="_blank">+64 3 442 6990</a><br>
+<strong>Email &nbsp;&nbsp;</strong><a href="mailto:info@canyonswing.co.nz" target="_blank">info@canyonswing.co.nz</a><br>
+<strong>Postal &nbsp;&nbsp;</strong>Po Box 1806, Queenstown, 9348<br>
+<strong>Physical</strong>&nbsp; &nbsp;<a href="https://goo.gl/maps/T9pL7NjeL9T2" target="_blank">34&nbsp;Shotover Street, Queenstown&nbsp;</a><br>
+<strong>Web </strong>&nbsp; <a href="http://www.canyonswing.co.nz" target="_blank">www.canyonswing.co.nz</a></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f1a4d7942e","applicationID":"32208148","transactionName":"NARXMRdWDUMEUkQKXg1OYBcMGExDEVBWBR4KD1EAHRkTWBU=","queueTime":0,"applicationTime":94,"atts":"GENUR19MHk0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
